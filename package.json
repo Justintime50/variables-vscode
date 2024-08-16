@@ -1,0 +1,33 @@
+{
+  "name": "variables",
+  "displayName": "Variables",
+  "description": "Syntax highlighting for VARIABLES files.",
+  "version": "0.1.0",
+  "engines": {
+    "vscode": "^1.92.0"
+  },
+  "categories": [
+    "Programming Languages"
+  ],
+  "contributes": {
+    "languages": [
+      {
+        "id": "variables",
+        "aliases": [
+          "variables",
+          "Variables"
+        ],
+        "filenames": [
+          "VARIABLES"
+        ]
+      }
+    ],
+    "grammars": [
+      {
+        "language": "variables",
+        "scopeName": "source.variables",
+        "path": "./syntaxes/variables.tmLanguage.json"
+      }
+    ]
+  }
+}

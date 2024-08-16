@@ -1,0 +1,53 @@
+{
+  "$schema": "https://raw.githubusercontent.com/martinring/tmlanguage/master/tmlanguage.json",
+  "scopeName": "source.variables",
+  "patterns": [
+    { "include": "#version" },
+    { "include": "#comments" },
+    { "include": "#variables" },
+    { "include": "#types" },
+    { "include": "#descriptions" }
+  ],
+  "repository": {
+    "version": {
+      "patterns": [
+        {
+          "name": "constant",
+          "match": "^(VARIABLES_VERSION).+"
+        }
+      ]
+    },
+    "comments": {
+      "patterns": [
+        {
+          "name": "comment.line",
+          "match": "#.*$"
+        }
+      ]
+    },
+    "variables": {
+      "patterns": [
+        {
+          "name": "variable.name",
+          "match": "^[\\S]+"
+        }
+      ]
+    },
+    "types": {
+      "patterns": [
+        {
+          "name": "keyword",
+          "match": "(?<=^[^\\s]+\\s)[^\\s]+"
+        }
+      ]
+    },
+    "descriptions": {
+      "patterns": [
+        {
+          "name": "string.unquoted",
+          "match": "[^\\s]{2}([^#]+)(?:\\s+#.*)?"
+        }
+      ]
+    }
+  }
+}
