@@ -2,10 +2,28 @@
   "name": "variables",
   "displayName": "Variables",
   "description": "Syntax highlighting for VARIABLES files.",
-  "version": "0.1.0",
+  "publisher": "JustinHammond",
+  "version": "0.0.1",
   "engines": {
     "vscode": "^1.92.0"
   },
+  "icon": "images/variable.png",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/justintime50/variables-vscode.git"
+  },
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/justintime50/variables-vscode/issues"
+  },
+  "homepage": "https://github.com/justintime50/variables-vscode#readme",
+  "keywords": [
+    "variables",
+    "file",
+    "support",
+    "syntax",
+    "highlighting"
+  ],
   "categories": [
     "Programming Languages"
   ],

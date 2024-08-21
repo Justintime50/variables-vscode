@@ -1,4 +1,5 @@
-.vscode/**
-.vscode-test/**
+.DS_Store
 .gitignore
-vsc-extension-quickstart.md
+.vscode-test/**
+.vscode/**
+*.vsix
