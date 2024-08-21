@@ -1,6 +1,6 @@
 # Variables VS Code Extension
 
-The Variables VS Code Extension adds syntax highlighting support to VS Code for `VARIABLES` files.
+The [Variables VS Code Extension](https://marketplace.visualstudio.com/items?itemName=JustinHammond.variables) adds syntax highlighting support to VS Code for `VARIABLES` files.
 
 Variables files may look something like this:
 
@@ -21,6 +21,8 @@ MY_ENV str? this will help future engineers know what this env var is for
 2. Go to the Extensions menu
 3. Search for "Variables"
 4. Install
+
+Alternatively, [install directly from this link](https://marketplace.visualstudio.com/items?itemName=JustinHammond.variables).
 
 ### Manual Installation
 
